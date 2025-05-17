@@ -117,8 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="erba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\erba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lbl_rules.Text" xml:space="preserve">
+    <value>REGOLE:
+🎯 Obiettivo del gioco:
+Scoprire tutte le celle libere da mine senza far esplodere nessuna mina.
+🕹️ Come si gioca
+    Clic sinistro su una cella per scoprirla:
+        Se c’è una mina, hai perso.
+        Se è vuota, può aprirsi automaticamente un’area più ampia senza mine.
+        Se mostra un numero, significa che ci sono mine nelle celle adiacenti.
+    Clic destro per:
+        Segnare una bandiera (🚩) su una cella sospetta (pensi ci sia una mina).
+    Quando sei sicuro della posizione delle mine, puoi:
+        Scoprire tutte le altre celle non pericolose per vincere.
+🧠 Strategia base
+    Parti da un angolo o da un bordo.
+    Se una cella mostra un "1" e ha una sola cella adiacente non scoperta, è quasi sicuramente una mina.
+    Usa logica e deduzione per evitare i clic casuali.
+🏁 Vittoria
+Hai vinto se:
+    Tutte le celle libere sono state scoperte.
+    Tutte le mine sono state marcate (opzionale, ma aiuta).</value>
   </data>
 </root>
